@@ -1,0 +1,39 @@
+# Python artifacts
+
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+
+# Virtual Environment
+.venv/
+venv/
+env/
+
+# Secrets and environmental files
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Data and Models
+data/*
+!data/.gitkeep
+!data/sample/
+*.pkl
+*.h5
+*.onnx
+*.parquet
+
+# Notebook
+notebooks/.ipynb_checkpoints/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
